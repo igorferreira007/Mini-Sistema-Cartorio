@@ -66,6 +66,7 @@ namespace MiniSistemaCartorio
             string cpfPai = Txt_CpfPai.Text;
             string cpfMae = Txt_CpfMae.Text;
             string dataRegistro = Txt_DataRegistro.Text;
+            string teste;
 
             Pai pai = new Pai(nomePai, ParseDate(dataNascimentoPai), cpfPai);
             Mae mae = new Mae(nomeMae, ParseDate(dataNascimentoMae), cpfMae);
